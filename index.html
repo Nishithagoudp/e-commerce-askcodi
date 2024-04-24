@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-Commerce Website</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f9a3f4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+footer {
+  background-color: #f9a3f4;
+  text-align: center;
+  padding: 10px;
+}
+
+.form-text {
+  margin: 20px;
+}
+
+.button {
+  background-color: #ff80b0;
+  color: #ffffff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff4d6b;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>My E-Commerce Company</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="product">
+  <img src="product-image.jpg" alt="Product Image">
+  <div>
+    <h2>Product Title</h2>
+    <p>Description of the product goes here.</p>
+    <p>$19.99</p>
+    <button class="button">Add to Cart</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2021 My E-Commerce Company. All Rights Reserved.</p>
+</footer>
+
+<div class="form-text">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button class="button">Submit</button>
+  </form>
+</div>
+
+<script>
+// Add JavaScript functionality here
+</script>
+</body>
+</html>
